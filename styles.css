@@ -1,0 +1,21 @@
+@font-face {
+    font-family: Norse;
+    src: url(https://cdn.statically.io/gh/TheOdinProject/theodinproject/efdc2888072f409e687d31dc580595dbe4fe0ff4/app/assets/fonts/Norse-Bold.otf);
+}
+
+:root {
+    --button-bg: #52486d
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Norse;
+    font-size: 62.5%;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+}
