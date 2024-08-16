@@ -20,4 +20,30 @@ body {
     background-repeat: no-repeat;
     background-position: center; 
     background-attachment: fixed;
+    display: flex;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+main {
+    background-color: white;
+    flex: 2;
+}
+
+aside {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 5rem;
+}
+
+.logo {
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 6rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
 }
