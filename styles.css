@@ -22,7 +22,7 @@ body {
     background-attachment: fixed;
     display: flex;
     height: 100vh;
-    overflow-y: hidden;
+
 }
 
 main {
@@ -30,6 +30,7 @@ main {
     flex: 2;
     font-family: Arial, Helvetica, sans-serif;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    height: 100vh;
 }
 
 header {
@@ -76,6 +77,12 @@ form input {
 form input:focus {
     outline: 1px solid var(--button-bg);
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+form #match {
+    color: red;
+    font-weight: 500;
+    opacity: 0;
 }
 
 form label {
